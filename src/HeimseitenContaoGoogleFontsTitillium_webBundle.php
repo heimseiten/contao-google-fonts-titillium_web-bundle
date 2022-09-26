@@ -7,7 +7,7 @@ namespace Heimseiten\ContaoGoogleFontsTitillium_webBundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class HeimseitenContaoGoogleTitillium_webBundle extends Bundle
+class HeimseitenContaoGoogleFontsTitillium_webBundle extends Bundle
 {
 	/**
 	 * {@inheritdoc}
