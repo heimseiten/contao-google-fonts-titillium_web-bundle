@@ -16,7 +16,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create('Heimseiten\ContaoGoogleFontsTitillium_webBundle\HeimseitenContaoGoogleTitillium_webBundle')
+            BundleConfig::create('Heimseiten\ContaoGoogleFontsTitillium_webBundle\HeimseitenContaoGoogleFontsTitillium_webBundle')
                 ->setLoadAfter(['Contao\CoreBundle\ContaoCoreBundle']),
         ];
     }
